@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from 'typewriter-effect';
+import picture from "../../../public/pictures/pic.jpg"
 
 const HeroPage=()=>{
     return(
@@ -39,7 +40,7 @@ const HeroPage=()=>{
         alt="myPic"
         width={300}
         height={300}
-        src={require("../../../public/pictures/pic.jpg")}
+        src={picture}
       />
     </div>
   </div>

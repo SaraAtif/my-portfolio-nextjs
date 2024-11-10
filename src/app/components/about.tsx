@@ -1,6 +1,3 @@
-import Image from "next/image";
-import Link from "next/link";
-
 const AboutPage = () => {
     return (
         <div id="about">
@@ -9,10 +6,9 @@ const AboutPage = () => {
                     
                     <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
                         <h1 className="title-font sm:text-4xl text-6xl  mb-4 font-bold text-gray-900">
-                            About Me
-                        </h1>
+                            About Me                        </h1>
                         <p className="mb-5 leading-relaxed">
-                            Hi, I’m SARA ATIF, a passionate web developer with 2 years of experience in IT. My expertise lies in UI/UX design, front-end development.</p>
+                            Hi, I am SARA ATIF, a passionate web developer with 2 years of experience in IT. My expertise lies in UI/UX design, front-end development.</p>
                         <p className="mb-5 leading-relaxed">
 
                             I believe in blending creativity with functionality to deliver meaningful results. Every project I work on is a chance to push boundaries and explore innovative solutions.</p>

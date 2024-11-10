@@ -1,4 +1,3 @@
-import react from "react";
 import Link from "next/link";
 import { IoMdDownload } from "react-icons/io";
 
@@ -11,7 +10,7 @@ const Navbar =()=>{
       
       <span className="ml-3 text-3xl font-samibold text-white">Sara Atif</span>
     </a>
-    <nav className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+    <nav className="md:ml-auto md:mr-auto flex flex-wrapz items-center text-base justify-center">
       <Link href="/" className="mr-5 hover:text-teal-900">Home</Link>
       <Link href="#about" className="mr-5 hover:text-teal-900">About</Link>
       <Link href="#skills" className="mr-5 hover:text-teal-900">Skills</Link>

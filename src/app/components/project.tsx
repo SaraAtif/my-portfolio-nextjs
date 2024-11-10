@@ -1,6 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-
 const ProjectPage=() =>{
     return(
         <div id="projects">
@@ -17,7 +16,7 @@ const ProjectPage=() =>{
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center border-2 border-solid border-teal-900 rounded-2xl"
-            src={require("../../../public/projects/static-resume.PNG")}
+            src="/static-resume.PNG"
             width={300}
             height={300}
           />
@@ -44,7 +43,7 @@ const ProjectPage=() =>{
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center border-2 border-solid border-teal-900 rounded-2xl"
-            src={require("../../../public/projects/shareable-resume.PNG")}
+            src="/shareable-resume.PNG"
             width={300}
             height={300}
           />
@@ -71,7 +70,7 @@ const ProjectPage=() =>{
           <Image
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center border-2 border-solid border-teal-900 rounded-2xl"
-            src={require("../../../public/projects/form.PNG")}
+            src="/form.PNG"
             width={300}
             height={300}
           />
