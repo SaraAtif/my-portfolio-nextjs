@@ -14,7 +14,7 @@ const AboutPage = () => {
                             I believe in blending creativity with functionality to deliver meaningful results. Every project I work on is a chance to push boundaries and explore innovative solutions.</p>
                         <p className="mb-5 leading-relaxed">
 
-                            Feel free to explore my portfolio and get in touch if you'd like to collaborate!
+                            Feel free to explore my portfolio and get in touch if you like to collaborate!
 
                         </p>
                         <div className="flex justify-center">
