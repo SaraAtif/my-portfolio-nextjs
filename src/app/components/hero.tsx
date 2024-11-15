@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import Typewriter from 'typewriter-effect';
-import picture from "../../../public/pictures/pic.jpg"
+import picture from "../../../public/pic.jpg"
 
 const HeroPage=()=>{
     return(
